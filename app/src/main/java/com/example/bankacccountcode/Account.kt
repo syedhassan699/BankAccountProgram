@@ -34,5 +34,8 @@ class Account (
         for (transaction in transHist)
             println(transaction)
     }
+    fun acctBalance(){
+        println(balance)
+    }
 
 }
